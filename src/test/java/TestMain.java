@@ -15,20 +15,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestMain {
     static AndroidDriver <AndroidElement> driver = null;
 
-//    protected By number_1 = By.id("com.google.android.calculator:id/digit_1");
-//    protected By number_2 = By.id("com.google.android.calculator:id/digit_2");
-//    protected By number_3 = By.id("com.google.android.calculator:id/digit_3");
-//    protected By number_4 = By.id("com.google.android.calculator:id/digit_4");
-//    protected By number_5 = By.id("com.google.android.calculator:id/digit_5");
-//    protected By number_6 = By.id("com.google.android.calculator:id/digit_6");
-//    protected By number_7 = By.id("com.google.android.calculator:id/digit_7");
-//    protected By number_8 = By.id("com.google.android.calculator:id/digit_8");
-//    protected By number_9 = By.id("com.google.android.calculator:id/digit_9");
-//    protected By number_0 = By.id("com.google.android.calculator:id/digit_0");
-//    protected By plus = By.id("com.google.android.calculator:id/op_add");
-//    protected By equals = By.id("com.google.android.calculator:id/eq");
-//    protected By window = By.id("com.google.android.calculator:id/result_final");
-
     @BeforeAll
     public static void initialize () {
         DesiredCapabilities capabilities = new DesiredCapabilities();
